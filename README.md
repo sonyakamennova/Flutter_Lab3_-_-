@@ -1,17 +1,27 @@
-# lab3_tasks
+# Самостоятельная работа к Лабораторной работе №3 (Flutter)
 
-A new Flutter project.
+Кроссплатформенное веб-приложение на Flutter, созданное в рамках самостоятельной работы для закрепления базовых виджетов и работы с изображениями.
 
-## Getting Started
+## Автор
+Каменнова Софья, ИСП-242
 
-This project is a starting point for a Flutter application.
+## Стек и версии
+* Flutter 3.x.x
+* Dart 3.13.7
+* Платформа: Web (Chrome)
+* IDE: VS Code
 
-A few resources to get you started if this is your first Flutter project:
+## Скриншот приложения
+![Результат работы](img/app_Каменнова.png)
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Запуск
+1. Клонировать репозиторий: `git clone <ССЫЛКА_НА_НОВЫЙ_РЕПОЗИТОРИЙ>`
+2. Перейти в папку проекта: `cd lab3_tasks`
+3. Выполнить `flutter pub get`
+4. Запустить командой `flutter run -d chrome`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Что изучили
+* Создание и запуск Flutter-проекта для веб-платформы в браузере Chrome.
+* Построение базового дерева виджетов (`MaterialApp`, `Scaffold`, `Center`, `Text`).
+* Подключение и отображение изображений в приложении с помощью виджета `Image` и настройки ресурсов в `pubspec.yaml`.
+* Настройку `.gitignore` и оформление документации проекта в `README.md`.
